@@ -64,5 +64,11 @@ public class TelefoneCelular extends Telefone {
         System.out.println("Reprodutor de Som:" + getReprodutorSom());
         System.out.println("Rádio; " + getRadio());
         System.out.println("Alrme: " + getAlarme());
+        System.out.println("Marca: " + getmarca());
+        System.out.println("Modelo: " + getModelo());
+        System.out.println("Cor: " + getCor());
+        System.out.println("Tamanho: " + getTamanho());
+        
     }
 }
+
