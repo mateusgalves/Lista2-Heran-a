@@ -36,7 +36,10 @@ public class TelefoneFixoFio extends Telefone {
     public void ImprimeDados(){
         System.out.println("Comprimento do Cabo: " + getComprimentoFio());
         System.out.println("Tipo de Cabo: " + getTipoCabo());
-                
+        System.out.println("Marca: " + getmarca());   
+        System.out.println("Modelo: " + getModelo());
+        System.out.println("Cor: " + getCor());
+        System.out.println("Tamanho: " + getTamanho());
          
     }
     
